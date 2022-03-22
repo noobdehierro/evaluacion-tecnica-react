@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.table{
+    margin: 0 auto;
+
+    border-style: solid;
+
+    &__head{
+        background-color: rgb(0, 162, 255);
+        height: 50px;
+    }
+    &__td{
+        cursor: pointer;
+        &:hover{
+            background-color: aqua;
+        }
+    }
+   
+
+    
+}
